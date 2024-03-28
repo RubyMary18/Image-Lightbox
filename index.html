@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="assets/css/style.css" />
+    <title>Image Lightbox</title>
+  </head>
+  <body>
+    <!--container start-->
+    <div class="container">
+      <!--main section start-->
+      <main>
+        <ul class="image-gallery">
+          <li>
+            <img src="./assets/images/image-01.jpg" alt="Image 1" />
+          </li>
+          <li><img src="./assets/images/image-02.jpg" alt="Image 2" /></li>
+          <li><img src="./assets/images/image-03.jpg" alt="Image 3" /></li>
+          <li><img src="./assets/images/image-04.jpg" alt="Image 4" /></li>
+          <li><img src="./assets/images/image-05.jpg" alt="Image 5" /></li>
+          <li><img src="./assets/images/image-06.jpg" alt="Image 6" /></li>
+        </ul>
+        <div class="lightbox-container">
+          <div class="img-info">
+            <p>
+              Image <span class="first">1</span> of <span class="last">6</span>
+            </p>
+            <span class="icon close">close</span>
+          </div>
+          <div class="img-box">
+            <figure>
+              <img src="./assets/images/image-03.jpg" alt="Preview Image" />
+            </figure>
+            <div class="slider-arrow">
+              <div class="prev arrow icon"><span>Prev</span></div>
+              <div class="next arrow icon"><span>Next</span></div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!--main section end-->
+    </div>
+    <!--container end-->
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
